@@ -1,0 +1,40 @@
+<ion-list>
+  <ion-content>
+  <ion-item>
+    <ion-input label="Input with placeholder" placeholder="Enter company name"></ion-input>
+  </ion-item>
+</ion-content>
+</ion-list>
+<div class="ion-page" id="main-content">
+  <ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+      <ion-title>Create</ion-title>
+    </ion-toolbar>
+  </ion-header> 
+</div>
+<div id="bttn">
+  <ion-footer>
+  <ion-button>SAVE</ion-button>
+  <ion-button routerLink="/home" fill="clear">BACK</ion-button>
+</ion-footer>
+</div>
+<div id="title">
+<ion-list>
+  <ion-item>
+    <ion-textarea label="Title" placeholder="Type your title here"></ion-textarea>
+  </ion-item>
+</ion-list>
+</div>
+<div id="cntnt">
+<ion-item>
+  <ion-textarea
+    placeholder="Type something here"
+    [autoGrow]="true"
+    value=""
+  >
+  </ion-textarea>
+</ion-item>
+</div>
